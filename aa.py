@@ -1,4 +1,11 @@
 import streamlit as st
+st.set_page_config(
+    layout='wide'
+    page_title= Hi
+    page_icon= 🆔
+    )
+
+st.image('증명사진.jpg')
 st.write('환영합니다')
 '# 파이썬의 :red[세계]에 오신것을 환영합니다.'
 '## 파이썬의 세계에 오신것을 환영합니다.'
